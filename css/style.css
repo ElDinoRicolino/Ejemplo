@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+.navbar{
+	background: #363636;
+	position: sticky;
+	bottom: 0;
+	top: 0;
+}
+.navbar a{
+	display: inline-block;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.contenedor{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+.contenedor-imagen img{
+	width: 100%;
+	height: 100%;
+}
+
+/* Switch */
+.switch{
+	background: #383737;
+	border-radius: 1000px;
+	border: none;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+}
+.switch span{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	display: block;
+	background: none;
+	color: #fff;
+}
+.switch::after{
+	content: "";
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: #f1f1f1;
+	top: 0;
+	bottom: unset;
+	border-radius: 100px;
+}
+.switch.active{
+	background: #FCD004;
+	color: #000;
+}
+.switch.active::after{
+	top: unset;
+	bottom: 0 ;
+}
+body{
+	background: #F6F6F6;
+}
+body.dark{
+	background: #1F1F1F;
+	color: #DEDCDC;
+}
+.titulo{
+	font-family: 'Lobster', cursive;
+}
+.subtitulo{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+
+/* Estilos Carrusel */
+.carousel{
+	min-height: 100px;
+}
+.carousel .carousel-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+	width: 1000px;
+	height: 1000px;
+}
+.carousel .carousel-item a img{
+	height: 250px;
+	width: 500px;
+	border-radius: 30px
+}
+.carousel .carousel-item a iframe{
+	height: 250px;
+	width: 500px;
+	border-radius: 30px
+}
+
+/* Parrafos */
+div .contenedor-parrafos{
+	background-color: #CE8A12;
+	height: 50%;
+	width: 50%;
+	border-radius: 20px;
+	margin-bottom: 40px; 
+}
+.parrafos{
+	padding: 20px;
+}
+.parrafos a{
+	color: #000000;
+}
+
+/* Aside */
+body main{
+	display: flex;
+}
+aside{
+	background: #B04DD0;
+    width: 25%;
+    height: 100%;
+    margin: 40px 20px 20px 0;
+    margin-left: 10%;
+    padding: 30px;
+    border-radius: 30px;
+    position: sticky;
+    top: 20px;
+}
+aside .cuadrito a {
+	text-decoration: none;
+	color: #2E3132;
+	display: block;
+	font-size: 20px;
+}
+aside .cuadrito a:hover{
+	color: #000000;
+}
+.cuadrito{
+	width: 200px;
+}
+.contenido{
+	padding: 20px;
+	margin-right: 10%;
+}
+
+/* Tabla de artefactos */
+.img-set{
+	width: 75px;
+	height: 75px;
+}
+.videos{
+	display: block;
+}
+
+/* Tabla de mapa */
+.tabla-mapa{
+	padding-left: 200px;
+	padding-right: 200px;
+	text-align: center;
+}
+th.subtitulo.titulos-mapa{
+	text-align: center;
+}
+.nombre{
+	padding-left: 75px;
+	padding-right: 75px;
+}
+.img-mapa{
+	height: 100px;
+	width: 100px;
+}
+
+/* Bosses */
+div .contenedor-bosses{
+	background-color: #B04DD0;
+	height: 75%;
+	width: 75%;
+	border-radius: 20px;
+	margin-bottom: 40px; 
+}
+img.img-boss{
+	width: 20%;
+	height: 20%;
+}

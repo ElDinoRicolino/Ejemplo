@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/materialize.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<!-- JS -->
+		<script src="https://kit.fontawesome.com/c13dedaffb.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="img/icono-paimon.jpg" type="image/jpg">
+	<title>Build de personajes</title>
+</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<div class="contenedor">
+					<img src="img/logo.png" width="10%" height="10%">
+					<img src="img/decora.png" width="2.5%" height="2.5%">
+					<a href="index.html">Home</a>
+					<a href="builds.html">Builds</a>
+					<a href="mapa.html">Mapa</a>
+					<a href="bosses.html">Bosses</a>
+					<button class="switch" id="switch">
+						<span><i class="fas fa-sun"></i></span>
+						<span><i class="fas fa-moon"></i></span>
+					</button>
+				</div>
+			</nav>
+			<div class="contenedor-imagen">
+				<img src="img/hearder-ganyu2.png">
+			</div>
+		</header>
+		<h1 class="titulo" align="center">Builds de personajes</h1>
+		<div class="contenedor">
+			<div class="contenedor-parrafos">
+				<div class="parrafos">
+					<P class="subtitulo">Una build en Genshin Impact es un conjunto de armas y objetos que podemos llevar.</P>
+					<p class="subtitulo">Estas armas y objetos se pueden conseguir de diferentes maneras como farmear artefactos con <a href="bosses.html" target="_blank">jefes</a> y utilizar protogemas en los <a href="banner.html" target="_blank">baners.</a></p>
+				</div>
+			</div>
+		</div>
+		<main>
+			<aside>
+				<h2 class="titulo">Mecanismos</h2>
+				<div class="cuadrito">
+					<a href="#armas">Armas</a>
+					<a href="#artefactos">Artefactos</a>
+					<a href="#reacciones">Reacciones</a>
+					<a href="#videos">Videos</a>
+				</div>
+			</aside>
+			<div class="contenido">
+				<div>
+					<h2 class="titulo" id="armas">Armas</h2>
+					<p>Extisten diferentes tipos de armas, Claymore, Espada, Arco y Lanza.</p>
+					<p>Cada <a>personaje</a> utiliza un tipo de arma, así que es necesario tener las armas con las que se cuentan y en lo que se centran.</p><br>
+					<p><a>Claymore:</a> Los que utilizan Claymore se centran principalmente en conseguir subEstadisticas en porcentaje de ataque.</p><br>
+					<p><a>Espada:</a> Los personajes de espada son muy versatiles, estos usuarios de espada son principalmete en ataque pero también realizar reacciones elementales con sus ataques, por lo que nos podemos centrar en seleccionar armas con ataque y maestría elemental.</p><br>
+					<p><a>Arco:</a> La mayoría de personajes de arco se centran en hacer ataques cargados y reacciones elementales con las habilidades, así que podemos equipar arcos con ataque y maestría elemental o recarga de energía para utilizar las habilidades.</p><br>
+					<p><a>Lanza:</a> Lo usuarios de estas armas están divididos, por una parte están Xiangling, Zhongli y HuTao que se pueden centrar en armarlos como support poniendoles ataque y sub estats que mejoren sus habilidades, por ejemplo vida o maestría elemental.</p>
+					<p>Por otro lado están los personajes como Xiao que son DPS y tienen que centrarse en hacer solo daño</p>
+				</div>
+				<div>
+					<h2 class="titulo" id="artefactos">Artefactos</h2>
+					<p>Hay diferentes sets de artefactos en el juego, cada uno de ellos es diferente y le van mejor o peor a unos personajes, así que a continuación voy a dar una explicación de algunos sets.</p><br>
+					<ul>
+						<li>Flor: HP</li>
+						<li>Pluma: ATK</li>
+						<li>Reloj de arena: ATK / ATK% / DEF / DEF% / HP / HP% / Energy Recharge / Elemental Mastery</li>
+						<li>Cáliz: ATK% / DEF% / HP% / Elemental Mastery, Elemental DMG% (Electro, Hydro, etc.)</li>
+						<li>Casco: ATK% / DEF% / HP% / CRIT Chance / CRIT DMG / Elemental Mastery / Healing Bonus</li>
+					</ul><br>
+					<table>
+						<caption>
+							<h4 class="titulo">Sets</h4>
+						</caption>
+						<tr>
+							<th class="subtitulo">Artefacto</th>
+							<th class="subtitulo">Bono de 2 piezas</th>
+							<th class="subtitulo">Bono de 4 piezas</th>
+						</tr>
+						<tr>
+							<td>
+								<img src="img/sets/aventurero.png" alt="Aventurero" class="img-set">
+								<p>Aventurero</p>
+							</td>
+							<td>
+								<p>Max HP aumentado en 1,000.</p>
+							</td>
+							<td>
+								<p>Abrir el cofre regenera un 30% de HP máximo durante 5 segundos.</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="img/sets/petra.png" alt="Petra" class="img-set">
+								<p>Petra Arcaica</p>
+							</td>
+							<td>
+								<p>Gana un 15% de bonificación de Geo DMG.</p>
+							</td>
+							<td>
+								<p>Al obtener un fragmento elemental creado a través de una reacción de cristalización, todos los miembros del grupo obtienen una bonificación de 35% de DAÑO para ese elemento en particular durante 10 segundos. Solo se puede obtener una forma de Bono de DAÑO Elemental de esta manera a la vez.</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="img/sets/berserker.png" alt="Berserker" class="img-set">
+								<p>Berserker</p>
+							</td>
+							<td>
+								<p>Tasa CRIT + 12%</p>
+							</td>
+							<td>
+								<p>Cuando HP está por debajo del 70%, la tasa CRIT aumenta en un 24% adicional.</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="img/sets/gladiador.png" alt="Gladiador" class="img-set">
+								<p>Final de Gladiador</p>
+							</td>
+							<td>
+								<p>ATQ + 18%</p>
+							</td>
+							<td>
+								<p>Si el portador de este conjunto de artefactos usa una Espada, Claymore o Arma de asta, aumenta su DAÑO de Ataque Normal en un 35%.</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<img src="img/sets/carmesi.png" alt="Carmesí" class="img-set">
+								<p>Bruja Carmesí</p>
+							</td>
+							<td>
+								<p>Gana un 15% de bonificación de Pyro DMG.</p>
+							</td>
+							<td>
+								<p>Aumenta el DAÑO sobrecargado y ardiente en un 40%. Aumenta Vaporizar y Derretir DAÑO en un 15%. El uso de una habilidad elemental aumenta los efectos del conjunto de 2 piezas en un 50% durante 10 segundos. Máximo 3 pilas.</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div>
+					<h2 class="titulo" id="reacciones">Reacciones Elementales</h2>
+					<p>En los combates de Genshin Impact los 7 poderes elementales tienen una presencia muy importante. Cada personaje domina un tipo de elemento y nosotros podemos combinar varios de manera que se den como resultado reacciones y combos muy útiles para vencer a los enemigos.</p>
+					<p>Si quieres conseguir buenos ataques con tu build de personajes tienes que consierar lo siguiente</p><br>
+					<ul>
+						<li>Anemo: es el elemento del viento.</li>
+						<li>Cryo: es el elemento del hielo.</li>
+						<li>Dendro: es el elemento de la naturaleza.</li>
+						<li>Electro: es el elemento del relámpago.</li>
+						<li>Geo: es el elemento de la tierra</li>
+						<li>Hydro: es el elemento del agua.</li>
+						<li>Pyro: es el elemento del fuego.</li>
+					</ul><br>
+					<p>Por poner un ejemplo para entenderlo; si mojas a un enemigo y luego lo electrocutas, este sufrirá mucho daño. Es un gran ataque combinado. A su vez si atacas con el elemento Pyro a un enemigo de hielo, este se verá muy afectado. Todas estas reacciones naturales y combos te darán ventaja en combate y por ello es importante conocerlas.</p><br>
+					<p>A continuación te vamos a mostrar una imagen de Reacciones elementales y combos que existen en Genshin Impact, podrás ver cuál es el nombre de la reacción y con qué tipo de poderes se crea.</p><br>
+					<img src="img/reacciones.webp" width="100%" height="100%" style="border-radius: 30px;">
+				</div>
+				<div>
+					<h2 class="titulo" id="videos">Videos</h2>
+					<h5>Algunos videos sobre builds de personajes que podían ser de ayuda</h5>
+					<table>
+						<tr>
+							<td>
+								<iframe width="400" height="200" src="https://www.youtube.com/embed/0OhSI-l2FJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 20px;"></iframe>
+								<p class="subtitulo">Build de Yanfei</p>
+							</td>
+							<td>
+								<iframe width="400" height="200" src="https://www.youtube.com/embed/DhBHkqC74t8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 20px;"></iframe>
+								<p class="subtitulo">Build de Razor</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<iframe width="400" height="200" src="https://www.youtube.com/embed/s0LrpTXcuTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 20px;"></iframe>
+								<p class="subtitulo">Build de Zhongli</p>
+							</td>
+							<td>
+								<iframe width="400" height="200" src="https://www.youtube.com/embed/NTQJe4Jxi-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 20px;"></iframe>
+								<p class="subtitulo">Build de Ganyu</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<h5 align="center">Aniles Macias Raúl Esteban</h5>
+			<h5 align="center">Programación 4-I</h5>
+		</footer>
+	<script src="js/switch.js"></script>
+	</body>
+</html>
